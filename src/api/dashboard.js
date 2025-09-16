@@ -76,3 +76,4 @@ export const dashboardAPI = {
   makeUserAdmin: (userId) => axios.post('/users/admin/make-admin/', { user_id: userId }),
 };
 
+

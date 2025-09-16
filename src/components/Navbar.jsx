@@ -52,7 +52,7 @@ function Navbar() {
             <div className="bg-gradient-to-br from-blue-400 to-orange-600 p-2 rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300">
              <div className="bg-gradient-to-br from-blue-400 to-white-600 p-2 rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300">
   <img
-    src="/amazon.jpg"
+    src={`${import.meta.env.BASE_URL}amazon.jpg`}
     alt="Qstly"
     className="h-8 w-auto object-contain"
     // Removed brightness-0 invert temporarily

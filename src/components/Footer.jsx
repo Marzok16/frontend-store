@@ -136,7 +136,7 @@ const Footer = () => {
             <Link to="/" className="flex items-center">
              <div className="bg-gradient-to-br from-orange-400 to-orange-600 p-2 rounded-xl shadow-lg group-hover:shadow-xl transition-all duration-300">
   <img
-    src="/amazon.jpg"
+    src={`${import.meta.env.BASE_URL}amazon.jpg`}
     alt="Qstly"
     className="h-8 w-auto object-contain"
     // Removed brightness-0 invert temporarily
